@@ -4,7 +4,7 @@
   "description": "for hadis",
   "main": "server.js",
   "scripts": {
-    "test": "nodmon server.js"
+    "test": "nodemon server.js"
   },
   "author": "shrz",
   "license": "ISC",
@@ -13,6 +13,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongodb": "^4.11.0"
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.7.2"
   }
 }
